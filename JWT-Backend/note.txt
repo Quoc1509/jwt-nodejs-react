@@ -1,0 +1,16 @@
+1. npm init (create npm project)
+
+2. npm install --save-exact express@4.17.2 (run reality server)
+
+3. npm install --save-exact dotenv@10.0.0 (read javascript files)
+
+4. npm install --save-exact body-parser@1.19.1 ()
+
+5. npm install --save-exact ejs@3.1.6 (coding the interface of nodejs)
+
+* gitignore is used to write files that don't want to push in github
+* babelrc is used to configure the compiler 
+
+6. npm install --save-exact @babel/core@7.15.4 @babel/node@7.15.4 @babel/preset-env@7.15.4
+
+7. npm install --save-exact nodemon@2.0.15 (server automaticaly start)
