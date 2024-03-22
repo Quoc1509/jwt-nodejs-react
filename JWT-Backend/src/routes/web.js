@@ -12,7 +12,11 @@ const router = express.Router();
 const initWebRoutes = (app) => {
     router.get('/', handleHomeController.handleHelloWorld)
     router.get('/user', handleHomeController.handleUsePage)
+    router.get('/update-user/:id', handleHomeController.getUpdateUserPage)
 
+    router.post('/users/create-user', handleHomeController.handleCreateNewUser)
+    router.post('/delete-user/:id', handleHomeController.handleDeleteUser)
+    router.post('/user/update-user', handleHomeController.handleUpdateUser)
     return app.use('/', router);
 }
 

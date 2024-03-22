@@ -14,3 +14,12 @@
 6. npm install --save-exact @babel/core@7.15.4 @babel/node@7.15.4 @babel/preset-env@7.15.4
 
 7. npm install --save-exact nodemon@2.0.15 (server automaticaly start)
+
+8. npm install --save-exact mysql2@2.3.3
+
+9. npm install --save-exact bcryptjs@2.4.3 (hash password)
+
+10. npm install --save-exact bluebird@3.7.2 (solving asynchronization)
+
+11. npm install --save-exact sequelize@6.13.0 sequelize-cli@6.3.0 
+(run: (node_modules/.bin/sequelize init) để khởi tạo)
